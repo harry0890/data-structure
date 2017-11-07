@@ -8,3 +8,7 @@
 
 
 ![image](https://raw.githubusercontent.com/harry0890/data-structure/master/data-structure/sorting/quicksort_graph1.PNG)
+
+
+reference:
+http://alrightchiu.github.io/SecondRound/comparison-sort-quick-sortkuai-su-pai-xu-fa.html
