@@ -31,18 +31,18 @@ int main(void)
 } 
 
 int partition(int number[], int left, int right) { 
-    int i = left - 1;                                         // 2
+    int i = left - 1;                                   
     int j;
-    for(j = left; j < right; j++) {       // j=0; j<9         
-        if(number[j] <= number[right]) {  // n[8] <= n[9]     // 8-9
-            i++; 						  // i=1              // 7
-            SWAP(number[i], number[j]);   // n[1]-n[8]        // 7-8
+    for(j = left; j < right; j++) {              
+        if(number[j] <= number[right]) {
+            i++; 						
+            SWAP(number[i], number[j]);   
         } 
     } 
 
-    SWAP(number[i+1], number[right]);     // n[1+1]-n[9]      // 7+1-9
+    SWAP(number[i+1], number[right]);     
 	 
-    return i+1; // return = 2  8
+    return i+1; 
 } 
 
 void quickSort(int number[], int left, int right) { 
