@@ -12,7 +12,7 @@ int main(void)
     srand(time(NULL)); 
     int number[MAX] = {0}; 
 
-    printf("�Ƨǫe�G"); 
+    printf("±Æ§Ç«e¡G"); 
     int i;
     for(i = 0; i < MAX; i++) { 
         number[i] = rand() % 100; 
@@ -21,7 +21,7 @@ int main(void)
 
     quickSort(number, 0, MAX-1); 
 
-    printf("\n�Ƨǫ�G"); 
+    printf("\n±Æ§Ç«á¡G"); 
     for(i = 0; i < MAX; i++) 
         printf("%d ", number[i]); 
     
