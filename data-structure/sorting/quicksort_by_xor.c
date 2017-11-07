@@ -57,11 +57,13 @@ int partition(int *array, int front, int end)
 	for(j=front; j<end; j++){
 		if(array[j] < pivot){
 			i++;
-			SWAP(&array[i],&array[j]); // i change with smaller than pivot;
+			//SWAP(&array[i],&array[j]); // i change with smaller than pivot;
+			SWAP((array+i),(array+j));
 		}	
 	}
 	i++;
-	SWAP(&array[i],&array[end]); // i change with pivot of sub-array
+	//SWAP(&array[i],&array[end]); // i change with pivot of sub-array
+	SWAP((array+i),(array+j));
 	return i;
 }
 
