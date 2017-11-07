@@ -16,7 +16,7 @@ int main(void)
 	
 	printf("Before sorting:\n");
 	for(i=0; i<MAX; i++){
-		array[i] = rand() % 100;
+		array[i] = rand() % 100; // // get random number 0~100
 		printf("[%2d] ", array[i]);
 	}
 	printf("\n");
