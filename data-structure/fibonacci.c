@@ -31,6 +31,8 @@ int fib_2(int n)
 }
 
 /* Space Optimized Method */
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 int fib_3(int n)
 {
     int a = 0, b = 1, c, i;
@@ -44,6 +46,8 @@ int fib_3(int n)
 }
 
 /* math formula method*/
+// Time Complexity: O(1)
+// Space Complexity: O(1)
 int fib_4(int n) { 
     double phi = (1 + sqrt(5)) / 2; 
     return round(pow(phi, n) / sqrt(5)); 
