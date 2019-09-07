@@ -7,6 +7,8 @@ typedef struct _Node {
 	struct _Node *next;
 } Node;
 
+//Time Complexity: O(n)
+//Space Complexity: O(1)
 void reverse(Node **head)
 {
 	Node *prev = NULL;
