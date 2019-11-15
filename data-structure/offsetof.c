@@ -28,3 +28,5 @@ int main(void)
 	printf("ptr = %ld\n", sizeof(ptr));  // pointer type = 8
 	printf("ptr type = %ld\n", sizeof(*ptr)); // pointer to int type = 4
 }
+
+// https://myao0730.blogspot.com/2016/09/linuxcontainerof-offsetof.html
