@@ -20,7 +20,7 @@ char *RemovePrefix(const char *s, const char *search)
 
 int main(void)
 {
-	/************ test case**********/ 
+    /************ test case**********/ 
     char str[] = "8591abcdefg";
     //char str[] = "8888dfs1sde";
     //char str[] = "85919293949";
@@ -29,9 +29,7 @@ int main(void)
     /********************************/
 
     char prefix[] = "8591";
-    
-	char *result = NULL;
-	
+    char *result = NULL;
 
     printf("Old string: %s\n", str); 
   
