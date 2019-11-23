@@ -10,8 +10,8 @@ char *RemovePrefix(const char *s, const char *search)
 
     while (*s) {
         if (strstr(s, search) == s)
-			s += searchlen;
-		else
+            s += searchlen;
+        else
             result[i++] = *s++;
 	}
     result[i] = '\0';
